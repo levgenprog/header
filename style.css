@@ -119,3 +119,79 @@ header {
     padding: 3px;
     font-size: x-large;
 }
+
+.content {
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content_header {
+    margin-top: 150px;
+    width: 753px;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #29374E;
+}
+
+.content_header_special {
+    color: #0962E8;
+}
+
+.content_about {
+    margin-top: 44px;
+    display: flex;
+}
+
+.content_about_item {
+    width: 502px;
+    background: #E9F6FF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.content_about_item_desc {
+    max-width: 201px;
+    margin: 33px 0 0 20px;
+    color: black;
+}
+
+.content_about_item_desc h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.content_about_item_desc p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 12px;
+}
+
+.content_about_item_img {
+    margin-top: 33px;
+    margin-right: 30px;
+    margin-bottom: -1px;
+    width: 218px;
+    height: 291px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: drop-shadow(8px -8px 16px rgba(0, 0, 0, 0.06));
+    border-radius: 20px 20px 0px 0px;
+}
+
+.item_img_1 {
+    background-image: url(img/risk_level.png);
+}
+
+.item_img_2 {
+    background-image: url(img/risk_level_1.png);
+}
