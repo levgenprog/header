@@ -4,6 +4,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
+    line-height: 140%;
 }
 
 main {
@@ -16,12 +17,15 @@ header {
     height: 678px;
 }
 
+img {
+    vertical-align: middle;
+}
+
 .top_languages {
     margin-top: 31px;
     display: inline-flex;
     margin-left: 85%;
     font-size: 14px;
-    line-height: 140%;
 }
 
 .lang {
@@ -77,7 +81,6 @@ header {
 .top_info_button {
     font-weight: 500;
     font-size: 18px;
-    line-height: 140%;
     color: white;
     background-color: #0962E8;
     border-radius: 8px;
@@ -104,7 +107,6 @@ header {
     padding: 22px 20px 30px 20px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 140%;
     color: #29374E;
     box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
@@ -170,7 +172,6 @@ header {
 }
 
 .content_about_item_desc p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 140%;
     margin-top: 12px;
@@ -194,4 +195,60 @@ header {
 
 .item_img_2 {
     background-image: url(img/risk_level_1.png);
+}
+
+.values {
+    display: flex;
+    margin-top: 120px;
+}
+
+.values_header {
+    margin-top: 0;
+    max-width: 100%;
+}
+
+.values_desc {
+    max-width: 45%;
+}
+
+.values_desc p {
+    max-width: 405px;
+    margin-top: 21px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.values_icones {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+.values_icones_item {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: calc(50% - 40px);
+    margin: 21px 19px;
+    padding: 17px 26px 30px;
+}
+
+.values_icones_item p {
+    color: #29374E;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 13px;
+}
+
+.values_icones_item_icon {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #EFF9FF;
+    text-align: center;
+    margin: 0;
+}
+
+.values_icones_item_icon img {
+    margin-top: 15%;
 }
